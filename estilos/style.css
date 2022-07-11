@@ -35,3 +35,11 @@ section#telefone {
     background-color: blue; /*só para entender o posicionamento*/
     background: url(../imagens/frame-iphone.png)no-repeat; /*pag. 25 caderno*/
 }
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
