@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center; /*pag. 25 caderno*/
+    background-size: cover; /*pag. 25 caderno*/
+    background-attachment: fixed; /*pag. 25 caderno*/
+}
+
+main {
+    position: relative; /*para conseguir organizar melhor a centralização.pag. 26 caderno*/
+    height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*pag. 26 caderno*/
+
+
+    height: 627px; /*ver tamanho da foto que vai utilizar*/
+    width: 311px; /*ver tamanho da foto que vai utilizar*/
+    background-color: blue; /*só para entender o posicionamento*/
+    background: url(../imagens/frame-iphone.png)no-repeat; /*pag. 25 caderno*/
+}
